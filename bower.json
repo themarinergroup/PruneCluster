@@ -1,6 +1,13 @@
 {
   "name": "PruneCluster",
   "version": "0.10.1",
+  "main": [
+    "dist/LeafletStyleSheet.css",
+    "dist/PruneCluster.js"
+  ],
+  "dependencies": {
+    "leaflet": "0.7.x"
+  },
   "devDependencies": {
     "DefinitelyTyped": "*",
     "leaflet-dist": "~0.7.2"
